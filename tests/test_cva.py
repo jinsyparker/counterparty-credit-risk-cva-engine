@@ -110,7 +110,7 @@ def test_constant_exposure_cva_is_lgd_times_exposure_times_pd():
     cva = estimate_cva(exposure, np.ones(grid.size), curve.marginal_pd(grid), 0.6)
 
     assert cva.value == pytest.approx(0.6 * 2.0e6 * curve.cumulative_pd(5.0), rel=1e-12)
-    assert cva.std_error == 0.0
+    assert cva.std_error <= 1e-12 * cva.value  # identical paths: zero variance up to float rounding
 
 
 def test_discretized_cva_matches_continuous_closed_form():
