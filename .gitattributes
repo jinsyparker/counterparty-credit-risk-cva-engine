@@ -1,0 +1,2 @@
+# Notebooks are walkthroughs of the src/ code; count the repository language as Python.
+*.ipynb linguist-documentation

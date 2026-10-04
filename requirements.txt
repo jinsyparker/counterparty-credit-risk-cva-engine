@@ -1,0 +1,11 @@
+# Engine and tests
+numpy>=2.0
+scipy>=1.11
+pandas>=2.2
+matplotlib>=3.8
+pytest>=8
+
+# Notebooks
+ipykernel
+jupyter
+nbformat

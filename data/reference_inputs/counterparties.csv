@@ -1,0 +1,3 @@
+counterparty_id,netting_set_id,cds_spread_bp,recovery_rate
+CPTY_A,NS_A,150,0.40
+CPTY_B,NS_B,300,0.40

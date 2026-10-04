@@ -1,0 +1,11 @@
+trade_id,counterparty_id,netting_set_id,notional,fixed_rate,direction,start,maturity,fixed_freq,float_freq
+A1,CPTY_A,NS_A,50000000,0.0478,payer,0.0,10.0,2,4
+A2,CPTY_A,NS_A,30000000,0.0542,receiver,0.0,7.0,2,4
+A3,CPTY_A,NS_A,25000000,0.0527,payer,1.0,6.0,2,4
+A4,CPTY_A,NS_A,40000000,0.0498,receiver,0.0,10.0,2,4
+A5,CPTY_A,NS_A,20000000,0.0536,payer,0.0,3.0,2,4
+A6,CPTY_A,NS_A,15000000,0.0543,receiver,0.0,2.0,2,4
+B1,CPTY_B,NS_B,30000000,0.0481,payer,0.0,5.0,2,4
+B2,CPTY_B,NS_B,20000000,0.0541,payer,0.0,8.0,2,4
+B3,CPTY_B,NS_B,25000000,0.0461,payer,0.0,4.0,2,4
+B4,CPTY_B,NS_B,10000000,0.0526,receiver,0.0,3.0,2,4
